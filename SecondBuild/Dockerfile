@@ -1,3 +1,7 @@
+# Aula de build com argumentos
+#
+# docker image build --build-arg S3Bucket=myapp -t second-build .
+
 FROM debian
 LABEL maintainer="Aluno Elton <aluno at soutomachado1@gmail.com>"
 
